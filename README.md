@@ -10,7 +10,7 @@ This report presents a thorough examination of Phonenow's call center data for t
 The dataset under analysis is sourced from Phonenow's telecommunications call center operations, encompassing customer interactions over the specified timeframe. Comprising 5000 rows and columns with diverse attributes such as Call ID, Agent, Date, Time, Topic, Answered (Y/N), Resolved, Speed of answer in seconds, Avg Talk duration, and Satisfaction rating, this dataset offers profound insights into the operational dynamics of Phonenow, the telecommunications firm.
 
 ## PROJECT GOAL
-This project aims to analyze Phonenow's call center data for the fiscal year 2021 to identify enduring trends and patterns in call center operations. Through gaining insights into call volume, durations, peak call times, and other pertinent metrics, the goal is to furnish strategic recommendations for optimizing call center operations, enhancing customer satisfaction, and driving business growth. Leveraging exploratory data analysis (EDA) techniques, actionable insights will be unearthed to inform Phonenow's decision-making processes and facilitate effective utilization of call center data for long-term success.
+This project aims to analyze Phonenow's call center data for the fiscal year 2021 to identify enduring trends and patterns in call center operations. Through gaining insights into call volume, durations, peak call times, and other pertinent metrics, the goal is to provide strategic recommendations for optimizing call center operations, enhancing customer satisfaction, and driving business growth. Leveraging exploratory data analysis (EDA) techniques, actionable insights will be unearthed to inform Phonenow's decision-making processes and facilitate effective utilization of call center data for long-term success.
 
 
 DATA SOURCES 
@@ -27,9 +27,9 @@ The primary dataset utilized for this analysis originates from the "Call-Centre-
 - The dataset comprises 5001 rows, including the header, and 10 columns.
 - No inconsistent data or characters were observed within the dataset.
 - Null values were identified in the Speed of answer in seconds, Satisfaction ratings, and AvgTalkduration columns.
-- To enhance clarity, the column name 'answered(Y/N)' was modified to 'Call Answered (Yes/No)', with 'Y' and 'N' values replaced by 'Yes' and 'No' respectively.
-- Similarly, the 'Resolved' column name was adjusted to 'Resolved (Yes/No)', with 'Y' and 'N' values substituted accordingly.
-- Null values in the Satisfaction rating column were replaced with '0', while those in the AvgTalkDuration column were retained to maintain data integrity.
+- To enhance clarity, the column name 'answered(Y/N)' was renamed to 'Call Answered (Yes/No)', with 'Y' and 'N' values replaced by 'Yes' and 'No'.
+- The 'Resolved' column name was renamed to 'Resolved (Yes/No)', with 'Y' and 'N' values replaced by 'Yes' and 'No'.
+- Null values in the Satisfaction rating column were replaced with '0',The speed of answer in seconds column wa also replaced with '0', while those in the AvgTalkDuration column were retained to maintain data integrity.
 
 ### RESULT 
 The cleaned dataset was imported into Power BI for data visualization and subsequent analysis.
